@@ -26,9 +26,18 @@
     <header class="jumbotron">
       <h1 class="display-3">Work Day Scheduler</h1>
       <p class="lead">A simple calendar app for scheduling your work day</p>
-     <h2> <script type="text/javascript">
-        var d=new Date();
-        document.write('Today is ' + d + ' <br> ');
+     <h2 class="time-block"> <script type="text/javascript">
+       var today = new Date();
+var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+
+
+
+var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+document.write('Today is ' + date + ' ' + time + ' <br> ');
+
+
+
+      
         </script></h2>
       <p id="currentDay" class="lead"></p>
     </header>
@@ -42,7 +51,7 @@
               9:00am
             </div>
             <div class="col-10">
-              <div class="p-3 mb-2  bg-secondary"><input type="text" size=56%><a href="#" class="btn btn-primary btn-md active" role="button" aria-pressed="true">Update Info</a></div></div></div>
+              <textarea width="180%"></textarea><button class="saveBtn">Update Info</button></div></div>
               
             <div class ="col-1">
              
@@ -110,3 +119,7 @@
       btn.addEventListener("click", function() {
       localStorage.setItem("task", InputEvent);
       });
+
+      function timeColor(past, present, future) {
+        if 
+      }
