@@ -1,36 +1,54 @@
-#  Day Planner
+
+# Day-Planner
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/jake10693/day-planner)
+
+## Description
 
 The app displays standard business hours (9 a.m. to 5 p.m.). Each time slot represents one hour and contains the following:
 
-* The time
+## Table of Contents 
 
-* A field to hold user input
+* [Installation](#installation)
 
-* A save button
+* [Usage](#usage)
 
-Clicking on the save button will store the time and user input in `localStorage`.
+* [License](#license)
 
-Near the top of the calendar, the application displays the current day. Additionally, each hour is color coded to reflect whether the time slot is in the past, the present, or the future. This will change depending on the time of day.
+* [Contributing](#contributing)
 
-This app uses [Moment.js](https://momentjs.com/) library to work with date and time.
+* [Tests](#tests)
 
-![day planner demo](./Assets/05-Third-Party-APIs-homework-demo.gif)
+* [Questions](#questions)
 
-## User Story
+## Installation
 
-As an employee with a busy schedule
+To install necessary dependencies, run the following command:
 
-I want to add important events to a daily planner
-
-So that I can manage my time effectively 
-
-## Business Context
-
-Poor time management can result in missed meetings and deadlines or create the appearance of unprofessionalism. A daily planner allows employees to see their day at a glance, schedule time effectively, and improve productivity. 
-
-Given that an employee adds events to a specific hour in a calendar
-
-When the employee clicks the save button
-
-Then events are saved in the timeblock for that hour
 ```
+This project was created without any back end functionality
+```
+
+## Usage
+
+This repo is available for forking. Use it to improve upon and make a larger application or add your own styling to the page.
+
+## License
+
+This project is licensed under the MIT license.
+  
+## Contributing
+
+This project is finished and no longer needs contributions. 
+
+## Tests
+
+To run tests, run the following command:
+
+```
+N/A
+```
+
+## Questions
+
+If you have any questions about the repo, open an issue or contact [jake10693](undefined) directly at jaydevvs16@gmail.com.
+
