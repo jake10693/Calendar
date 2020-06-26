@@ -4,7 +4,7 @@
 
 ## Description
 
-The app displays standard business hours (9 a.m. to 5 p.m.). Each time slot represents one hour and contains the following:
+The app displays standard business hours (9 a.m. to 5 p.m.). Each time slot represents one hour and will change color based on if that time of the current day has passed, is upcoming or is the current hour. You can add tasks manually into the time slots and save them to your local device by clicking the blue button on the right. This Front-end web application was created using moment.js. 
 
 ## Table of Contents 
 
